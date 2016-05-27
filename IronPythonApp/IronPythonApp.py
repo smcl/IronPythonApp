@@ -11,7 +11,7 @@ from Foo import *
 castle = PythonWindsor()
 
 #b = Bar()
-b = castle.GetBar()
+b = castle.Container.Resolve[IBar]()
 
 print('Hello world')
 print(b.Dork())

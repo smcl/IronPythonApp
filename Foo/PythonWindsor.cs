@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Castle.Windsor;
+﻿using Castle.Windsor;
 
 namespace Foo
 {
@@ -15,11 +10,6 @@ namespace Foo
         {
             Container = new WindsorContainer();
             Container.Install(new PythonInstaller());
-        }
-
-        public IBar GetBar()
-        {
-            return Container.Resolve<IBar>();
         }
     }
 }
