@@ -1,5 +1,5 @@
 # IronPythonApp
-Test playing with IronPython and Castle.Windsor. Basically two projects.
+Test playing with IronPython and Castle.Windsor using Visual Studio. Basically a solution composed of two projects.
 
 Foo - has following classes:
 - Bar: exposes a single method Dork(), implements interface IBar
